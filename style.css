@@ -15,7 +15,7 @@ html, body {
     border-radius: 5px;
     border-color: black;
     border-style: solid;
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,7 +50,7 @@ html, body {
 
   .hands {
     height: 100px;
-    background-color: gray;
+    background-color: lightgray;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
@@ -79,7 +79,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #ca0147;
+    border-right: 15px solid black;
     margin: 2rem;
     margin-right: 35px;
   }
@@ -89,7 +89,7 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #ca0147;
+    border-bottom: 15px solid black;
     margin: 2rem;
     margin-bottom: 35px;
   }
@@ -99,7 +99,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #ca0147;
+    border-left: 15px solid black;
     margin: 2rem;
     margin-left: 35px;
   }
@@ -109,23 +109,23 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #ca0147;
+    border-top: 15px solid black;
     margin: 2rem;
     margin-top: 35px;
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid red;
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid red;
   }
 
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid red;
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid red;
   }
