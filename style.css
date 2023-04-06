@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    background-color: skyblue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,14 +40,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: blue;
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: #075bed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ html, body {
     height: 50px;
     width: 50px;
     color: white;
-    background-color: #fcc006;
+    background-color: #8aaeeb;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #ca0147;
+    border-right: 15px solid orange;
     margin: 2rem;
     margin-right: 35px;
   }
@@ -81,7 +81,7 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #ca0147;
+    border-bottom: 15px solid orange;
     margin: 2rem;
     margin-bottom: 35px;
   }
@@ -91,7 +91,7 @@ html, body {
     height: 0;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #ca0147;
+    border-left: 15px solid orange;
     margin: 2rem;
     margin-left: 35px;
   }
@@ -101,23 +101,23 @@ html, body {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #ca0147;
+    border-top: 15px solid orange;
     margin: 2rem;
     margin-top: 35px;
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid orange;
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid orange;
   }
 
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid orange;
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid orange;
   }
