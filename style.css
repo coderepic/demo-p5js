@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    background-color: rgb(75, 157, 129);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,14 +40,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 171, 171);
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: #71533f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,17 +107,17 @@ html, body {
   }
 
   .active-left {
-    border-right: 15px solid #c1f80a;
+    border-right: 15px solid #567000;
   }
 
   .active-up {
-    border-bottom: 15px solid #c1f80a;
+    border-bottom: 15px solid #567000;
   }
 
   .active-right {
-    border-left: 15px solid #c1f80a;
+    border-left: 15px solid #567000;
   }
 
   .active-down {
-    border-top: 15px solid #c1f80a;
+    border-top: 15px solid #567000;
   }
