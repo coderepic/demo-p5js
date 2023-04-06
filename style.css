@@ -12,7 +12,10 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: gray;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,11 +24,11 @@ html, body {
   }
 
   #start-button {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: greenyellow;
     border-radius: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     width: 100px;
     height: 25px;
   }
@@ -40,14 +43,17 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: goldenrod;
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,6 +67,8 @@ html, body {
     color: white;
     background-color: #fcc006;
     border-radius: 50%;
+    border-color: black;
+    border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
