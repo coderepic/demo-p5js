@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: skyblue;
+    background-color: aquamarine;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,14 +40,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: aqua;
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #075bed;
+    background-color: #b8937a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ html, body {
     height: 50px;
     width: 50px;
     color: white;
-    background-color: #8aaeeb;
+    background-color: #fcc006;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -107,17 +107,17 @@ html, body {
   }
 
   .active-left {
-    border-right: 15px solid orange;
+    border-right: 15px solid #c1f80a;
   }
 
   .active-up {
-    border-bottom: 15px solid orange;
+    border-bottom: 15px solid #c1f80a;
   }
 
   .active-right {
-    border-left: 15px solid orange;
+    border-left: 15px solid #c1f80a;
   }
 
   .active-down {
-    border-top: 15px solid orange;
+    border-top: 15px solid #c1f80a;
   }
